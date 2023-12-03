@@ -1,9 +1,8 @@
-// 74HC595のピン接続
-#include <SPI.h>
-const int latchPin = 10;    // RCLK
+// 74HC595を5個カスケード接続した場合の動作サンプル(SPI通信を使用しない場合)
+const int dataPin = 2;     // SERピン
+const int latchPin = 3;    // RCLKピン
+const int clockPin = 4;    // SRCLKピン
 void setup() {
-  SPI.begin();
-  pinMode(latchPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
   pinMode(latchPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
