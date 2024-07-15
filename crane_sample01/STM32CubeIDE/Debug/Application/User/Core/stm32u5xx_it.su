@@ -1,0 +1,17 @@
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:77:6:NMI_Handler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:92:6:HardFault_Handler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:107:6:MemManage_Handler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:122:6:BusFault_Handler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:137:6:UsageFault_Handler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:152:6:DebugMon_Handler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:172:6:EXTI5_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:186:6:GPDMA1_Channel0_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:200:6:GPDMA1_Channel1_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:214:6:TIM6_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:228:6:DMA2D_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:242:6:HSPI1_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:256:6:GPU2D_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:270:6:GPU2D_ER_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:284:6:LTDC_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:298:6:LTDC_ER_IRQHandler	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_it.c:312:6:JPEG_IRQHandler	0	static

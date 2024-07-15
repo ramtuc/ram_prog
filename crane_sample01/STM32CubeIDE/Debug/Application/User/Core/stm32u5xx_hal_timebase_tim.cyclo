@@ -1,0 +1,3 @@
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_hal_timebase_tim.c:41:19:HAL_InitTick	4
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_hal_timebase_tim.c:109:6:HAL_SuspendTick	1
+D:/stm32/workspace/crane_sample01/Core/Src/stm32u5xx_hal_timebase_tim.c:121:6:HAL_ResumeTick	1

@@ -1,0 +1,7 @@
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:392:13:prvInsertBlockIntoFreeList	6
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:117:8:pvPortMalloc	15
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:277:6:vPortFree	4
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:326:8:xPortGetFreeHeapSize	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:332:8:xPortGetMinimumEverFreeHeapSize	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:338:6:vPortInitialiseBlocks	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:455:6:vPortGetHeapStats	3

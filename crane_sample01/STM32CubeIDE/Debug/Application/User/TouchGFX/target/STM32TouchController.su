@@ -1,0 +1,5 @@
+D:/stm32/workspace/crane_sample01/TouchGFX/target/STM32TouchController.cpp:56:6:virtual void STM32TouchController::init()	0	static
+../../TouchGFX/target/STM32TouchController.hpp:38:7:STM32TouchController::~STM32TouchController()	0	static
+../../TouchGFX/target/STM32TouchController.hpp:38:7:virtual STM32TouchController::~STM32TouchController()	8	static
+D:/stm32/workspace/crane_sample01/TouchGFX/target/STM32TouchController.cpp:61:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	72	static,ignoring_inline_asm
+D:/stm32/workspace/crane_sample01/TouchGFX/target/STM32TouchController.cpp:34:10:void HAL_GPIO_EXTI_Falling_Callback(uint16_t)	0	static

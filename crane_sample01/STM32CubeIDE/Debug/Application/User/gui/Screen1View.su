@@ -1,0 +1,17 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:32:6:virtual void Screen1View::tearDownScreen()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:37:6:virtual void Screen1View::Func_Left_Button()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:42:6:virtual void Screen1View::Func_Right_Button()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:48:6:virtual void Screen1View::Func_Front_Button()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:53:6:virtual void Screen1View::Func_Back_Button()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:58:6:virtual void Screen1View::Func_Up_Button()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:63:6:virtual void Screen1View::Func_Down_Button()	0	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:97:6:virtual void Screen1View::handleTickEvent()	8	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:68:6:virtual void Screen1View::Func_Open_Button()	8	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:83:6:virtual void Screen1View::Func_Close_Button()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:Screen1View::~Screen1View()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:virtual Screen1View::~Screen1View()	8	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:4:1:Screen1View::Screen1View()	8	static
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:8:6:void delayMicroseconds(uint32_t)	8	static,ignoring_inline_asm
+D:/stm32/workspace/crane_sample01/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:16:6:virtual void Screen1View::setupScreen()	8	static

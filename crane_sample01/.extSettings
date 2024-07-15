@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=../Drivers/BSP
+[Groups]
+Drivers/BSP=../Drivers/BSP/Components/mx66uw1g45g/mx66uw1g45g.c
+Application/User/TouchGFX/target=../TouchGFX/target/CortexMMCUInstrumentation.cpp;../TouchGFX/target/KeySampler.cpp
+[Others]

@@ -1,0 +1,5 @@
+STM32TouchController.cpp:56:6:virtual void STM32TouchController::init()	0	static
+STM32TouchController.hpp:38:7:STM32TouchController::~STM32TouchController()	0	static
+STM32TouchController.hpp:38:7:virtual STM32TouchController::~STM32TouchController()	8	static
+STM32TouchController.cpp:61:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	72	static
+STM32TouchController.cpp:34:10:void HAL_GPIO_EXTI_Falling_Callback(uint16_t)	0	static

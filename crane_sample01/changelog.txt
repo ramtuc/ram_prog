@@ -1,0 +1,34 @@
+3.0.5
+- Update to TouchGFX 4.24.0
+
+3.0.4
+- Update to STM32CubeMX 6.11.0
+- Update to firmware FW_U5 V1.5.0
+
+3.0.3
+- Increase external flash speed (HSPI1) from 80 MHz to 132 MHz
+- Use external oscilator on board (Use HSE instead of HSI in STM32CubeMX clock tree)
+
+3.0.2
+- Add option to run "program internal flash" command in TouchGFX Designer
+- Switch video buffer strategy to "Direct to Framebuffer"
+- Enabled support for vector fonts
+- Update to TouchGFX 4.23.0
+- Update to STM32CubeMX 6.10.0
+- Update to firmware FW_U5 V1.4.0
+
+3.0.1
+- Add support Keil compiler
+- Update to TouchGFX 4.22.1
+- Update to STM32CubeMX 6.9.1
+- Simplify reading of I2C touch-controller
+
+3.0.0
+First released version
+- TouchGFX 4.22.0
+- STM32CubeMX 6.9.0
+- firmware FW_U5 V1.3.0
+- X-CUBE-FREERTOS 1.0.1
+- support for STM32CubeIDE
+- support for EWARM
+- support for "Run target" in TouchGFX Designer

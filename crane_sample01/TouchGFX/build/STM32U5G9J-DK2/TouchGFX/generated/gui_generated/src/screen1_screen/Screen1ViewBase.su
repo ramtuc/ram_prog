@@ -1,0 +1,46 @@
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	0	static
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+AbstractPainter.hpp:61:34:virtual touchgfx::HAL::RenderingMethod touchgfx::AbstractPainter::getRenderingMethod() const	0	static
+AbstractPainter.hpp:78:18:virtual bool touchgfx::AbstractPainter::setup(const touchgfx::Rect&) const	0	static
+AbstractPainter.hpp:90:18:virtual void touchgfx::AbstractPainter::tearDown() const	0	static
+Screen1ViewBase.hpp:26:18:virtual void Screen1ViewBase::Func_Front_Button()	0	static
+Screen1ViewBase.hpp:30:18:virtual void Screen1ViewBase::Func_Open_Button()	0	static
+Screen1ViewBase.hpp:34:18:virtual void Screen1ViewBase::Func_Close_Button()	0	static
+Screen1ViewBase.hpp:38:18:virtual void Screen1ViewBase::Func_Left_Button()	0	static
+Screen1ViewBase.hpp:42:18:virtual void Screen1ViewBase::Func_Right_Button()	0	static
+Screen1ViewBase.hpp:46:18:virtual void Screen1ViewBase::Func_Back_Button()	0	static
+Screen1ViewBase.hpp:50:18:virtual void Screen1ViewBase::Func_Up_Button()	0	static
+Screen1ViewBase.hpp:54:18:virtual void Screen1ViewBase::Func_Down_Button()	0	static
+View.hpp:36:7:touchgfx::View<Screen1Presenter>::~View()	0	static
+Screen1ViewBase.cpp:226:6:virtual void Screen1ViewBase::setupScreen()	0	static
+Screen1ViewBase.cpp:231:6:void Screen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+Callback.hpp:357:8:touchgfx::Callback<Screen1ViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
+Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Screen1ViewBase; T1 = const touchgfx::AbstractButton&]	8	static
+Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = Screen1ViewBase; T1 = const touchgfx::AbstractButton&]	0	static
+View.hpp:36:7:virtual touchgfx::View<Screen1Presenter>::~View()	8	static
+Callback.hpp:357:8:virtual touchgfx::Callback<Screen1ViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
+Screen1ViewBase.cpp:221:1:Screen1ViewBase::~Screen1ViewBase()	8	static
+Screen1ViewBase.cpp:221:1:virtual Screen1ViewBase::~Screen1ViewBase()	8	static
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
+ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	24	static
+AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	16	static
+PainterRGB565.hpp:42:5:touchgfx::PainterRGB565::PainterRGB565(touchgfx::colortype)	16	static
+Screen1ViewBase.cpp:10:1:Screen1ViewBase::Screen1ViewBase()	208	static

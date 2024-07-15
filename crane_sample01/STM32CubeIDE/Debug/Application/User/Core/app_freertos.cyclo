@@ -1,0 +1,3 @@
+D:/stm32/workspace/crane_sample01/Core/Src/app_freertos.c:141:6:StartDefaultTask	1
+D:/stm32/workspace/crane_sample01/Core/Src/app_freertos.c:78:6:vApplicationIdleHook	1
+D:/stm32/workspace/crane_sample01/Core/Src/app_freertos.c:99:6:MX_FREERTOS_Init	1

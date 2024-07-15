@@ -1,0 +1,5 @@
+ButtonController.hpp:48:18:virtual void touchgfx::ButtonController::reset()	0	static
+KeySampler.hpp:15:13:touchgfx::KeySampler::~KeySampler()	0	static
+KeySampler.cpp:6:6:virtual void touchgfx::KeySampler::init()	0	static
+KeySampler.cpp:10:6:virtual bool touchgfx::KeySampler::sample(uint8_t&)	8	static
+KeySampler.hpp:15:13:virtual touchgfx::KeySampler::~KeySampler()	8	static

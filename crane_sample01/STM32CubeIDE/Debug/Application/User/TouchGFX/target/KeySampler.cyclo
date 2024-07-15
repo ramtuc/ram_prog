@@ -1,0 +1,5 @@
+../../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp:48:18:virtual void touchgfx::ButtonController::reset()	1
+D:/stm32/workspace/crane_sample01/TouchGFX/target/KeySampler.hpp:15:13:touchgfx::KeySampler::~KeySampler()	1
+D:/stm32/workspace/crane_sample01/TouchGFX/target/KeySampler.cpp:6:6:virtual void touchgfx::KeySampler::init()	1
+D:/stm32/workspace/crane_sample01/TouchGFX/target/KeySampler.cpp:10:6:virtual bool touchgfx::KeySampler::sample(uint8_t&)	2
+D:/stm32/workspace/crane_sample01/TouchGFX/target/KeySampler.hpp:15:13:virtual touchgfx::KeySampler::~KeySampler()	1

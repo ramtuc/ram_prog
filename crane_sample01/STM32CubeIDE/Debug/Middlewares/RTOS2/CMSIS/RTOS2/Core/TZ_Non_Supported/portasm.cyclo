@@ -1,0 +1,9 @@
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:43:6:vRestoreContextOfFirstTask	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:114:12:xIsPrivileged	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:131:6:vRaisePrivilege	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:144:6:vResetPrivilege	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:157:6:vStartFirstTask	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:179:10:ulSetInterruptMask	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:194:6:vClearInterruptMask	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:207:6:PendSV_Handler	1
+D:/stm32/workspace/crane_sample01/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c:306:6:SVC_Handler	1

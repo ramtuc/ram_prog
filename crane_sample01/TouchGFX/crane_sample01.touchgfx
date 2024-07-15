@@ -1,0 +1,513 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 480,
+            "RelativeFilename": "test.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Front_Button",
+            "X": 414,
+            "Y": 60,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_active.png",
+            "TextId": "__SingleUse_MNBU",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Open_Button",
+            "X": 178,
+            "Y": 90,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_action.png",
+            "TextId": "__SingleUse_7233",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Close_Button",
+            "X": 178,
+            "Y": 375,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_action.png",
+            "TextId": "__SingleUse_YU4O",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Left_Button",
+            "X": 238,
+            "Y": 224,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_active.png",
+            "TextId": "__SingleUse_RUDE",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Right_Button",
+            "X": 589,
+            "Y": 224,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_active.png",
+            "TextId": "__SingleUse_SL86",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back_Button",
+            "X": 414,
+            "Y": 405,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_active.png",
+            "TextId": "__SingleUse_4NF9",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Up_Button",
+            "X": 678,
+            "Y": 60,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_active.png",
+            "TextId": "__SingleUse_FTS0",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Down_Button",
+            "X": 678,
+            "Y": 405,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_active.png",
+            "TextId": "__SingleUse_DTED",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Front_Limit_OFF",
+            "X": 95,
+            "Y": 126,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Back_Limit_OFF",
+            "X": 95,
+            "Y": 170,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Right_Limit_OFF",
+            "X": 95,
+            "Y": 211,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Left_Limit_OFF",
+            "X": 95,
+            "Y": 251,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Up_Limit_OFF",
+            "X": 95,
+            "Y": 293,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Down_Limit_OFF",
+            "X": 95,
+            "Y": 336,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Arm_Limit_OFF",
+            "X": 95,
+            "Y": 377,
+            "Width": 40,
+            "Height": 39,
+            "Color": {
+              "Red": 87,
+              "Green": 87,
+              "Blue": 87
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Front_Limit_ON",
+            "X": 95,
+            "Y": 126,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Back_Limit_ON",
+            "X": 95,
+            "Y": 170,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Right_Limit_ON",
+            "X": 95,
+            "Y": 211,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Left_Limit_ON",
+            "X": 95,
+            "Y": 251,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Up_Limit_ON",
+            "X": 95,
+            "Y": 293,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Down_Limit_ON",
+            "X": 95,
+            "Y": 336,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Arm_Limit_ON",
+            "X": 95,
+            "Y": 377,
+            "Width": 40,
+            "Height": 39,
+            "Visible": false,
+            "Color": {
+              "Green": 255
+            },
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Func_Front_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Front_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Front_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Open_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Open_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Open_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Close_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Close_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Close_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Left_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Left_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Left_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Right_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Right_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Right_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Back_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Back_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Up_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Up_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Up_Button"
+            }
+          },
+          {
+            "InteractionName": "Func_Down_Button",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Down_Button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Func_Down_Button"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "crane_sample01",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D",
+      "16": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Key": 1,
+        "Name": "USER_BUTTON"
+      }
+    ],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F9/5G9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../STM32U5G9J-DK2.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": [
+      "GPU2DVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}

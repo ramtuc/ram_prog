@@ -1,0 +1,4 @@
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:171:6:SystemClock_Config	136	static,ignoring_inline_asm
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:99:5:main	112	static,ignoring_inline_asm
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:760:6:HAL_TIM_PeriodElapsedCallback	0	static
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:777:6:Error_Handler	0	static,ignoring_inline_asm

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">crane controller</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_YU4O" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Close</Translation>
+      </Text>
+      <Text Id="__SingleUse_7233" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Open</Translation>
+      </Text>
+      <Text Id="__SingleUse_DTED" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Down</Translation>
+      </Text>
+      <Text Id="__SingleUse_FTS0" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Up</Translation>
+      </Text>
+      <Text Id="__SingleUse_4NF9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Back</Translation>
+      </Text>
+      <Text Id="__SingleUse_SL86" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Right</Translation>
+      </Text>
+      <Text Id="__SingleUse_RUDE" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Left</Translation>
+      </Text>
+      <Text Id="__SingleUse_MNBU" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Front</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

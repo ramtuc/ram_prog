@@ -1,0 +1,4 @@
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:171:6:SystemClock_Config	4
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:99:5:main	16
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:760:6:HAL_TIM_PeriodElapsedCallback	2
+D:/stm32/workspace/crane_sample01/Core/Src/main.c:777:6:Error_Handler	1

@@ -1,0 +1,82 @@
+!SESSION 2024-07-01 18:38:23.102 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  D:\stm32\workspace\crane_sample01\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\stm32\workspace\crane_sample01\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-01 18:38:56.413
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-01 18:38:56.414
+!MESSAGE Log4j2 initialized with config file D:\stm32\workspace\crane_sample01\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-01 18:39:02.156
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-07-01 18:52:56.539 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  D:\stm32\workspace\crane_sample01\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\stm32\workspace\crane_sample01\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-01 18:53:23.067
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-01 18:53:23.068
+!MESSAGE Log4j2 initialized with config file D:\stm32\workspace\crane_sample01\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-01 18:53:31.801
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-07-13 13:25:50.151 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-13 13:26:01.355
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-13 13:26:01.357
+!MESSAGE Log4j2 initialized with config file D:\stm32\workspace\crane_sample01\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-13 13:26:04.438
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-07-13 13:26:33.158 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  D:\stm32\workspace\touchpanel001\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\stm32\workspace\touchpanel001\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-13 13:26:38.720
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-13 13:26:38.721
+!MESSAGE Log4j2 initialized with config file D:\stm32\workspace\crane_sample01\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-13 13:26:41.384
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-13 13:26:55.105
+!MESSAGE Indexed 'STM32U5G9J-DK2' (89 sources, 361 headers) in 8.1 sec: 33,294 declarations; 136,011 references; 8 unresolved inclusions; 155 syntax errors; 3,522 unresolved names (2%)
+!SESSION 2024-07-13 13:30:10.429 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  D:\stm32\workspace\crane_sample01\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\stm32\workspace\crane_sample01\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-13 13:30:16.386
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-13 13:30:16.387
+!MESSAGE Log4j2 initialized with config file D:\stm32\workspace\crane_sample01\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-13 13:30:18.882
+!MESSAGE Started RMI Server, listening on port 41337
