@@ -1,0 +1,79 @@
+﻿<Window x:Class="BrightData_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="Bright Data Tech Radar (with Gemini)" Height="700" Width="1200">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10">
+            <Button x:Name="TestButton" Content="接続テスト" Click="TestButton_Click" 
+                    Padding="10,5" Margin="0,0,10,0"/>
+
+            <Button x:Name="ScrapeButton" Content="GitHubトレンド取得" Click="ScrapeButton_Click" 
+                    Padding="10,5" Background="#007ACC" Foreground="White" FontWeight="Bold" Margin="0,0,10,0"/>
+
+            <Button x:Name="AnalyzeButton" Content="AI分析 (Gemini)" Click="AnalyzeButton_Click" 
+                    Padding="10,5" Background="#34A853" Foreground="White" FontWeight="Bold"/>
+
+            <TextBlock Text="※OxyPlot &amp; Gemini搭載" VerticalAlignment="Center" Margin="15,0,0,0" Foreground="Gray"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="RepoGrid" Grid.Column="0" AutoGenerateColumns="False" 
+                      IsReadOnly="True" BorderBrush="LightGray" BorderThickness="1" Margin="0,0,10,0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="順位" Binding="{Binding Rank}" Width="40"/>
+                    <DataGridTextColumn Header="リポジトリ名" Binding="{Binding Name}" Width="150" FontWeight="Bold"/>
+                    <DataGridTextColumn Header="★" Binding="{Binding Stars}" Width="60"/>
+                    <DataGridTextColumn Header="言語" Binding="{Binding Language}" Width="80"/>
+                    <DataGridTextColumn Header="説明" Binding="{Binding Description}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Border Grid.Column="1" BorderBrush="LightGray" BorderThickness="1" Padding="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="スター数ランキング" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold" Margin="0,5,0,0"/>
+                        <oxy:PlotView Model="{Binding MyPlotModel}" Margin="0,25,0,0"/>
+                    </Grid>
+
+                    <Grid Grid.Row="1" Margin="5,10,5,5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="🤖 Gemini Trend Analysis" FontWeight="Bold" Foreground="#4285F4"/>
+                        <TextBox x:Name="AiSummaryText" Grid.Row="1" Margin="0,5,0,0"
+                                 Text="「AI分析」ボタンを押すと、ここにGeminiによる解説が表示されます..."
+                                 TextWrapping="Wrap" AcceptsReturn="True" 
+                                 VerticalScrollBarVisibility="Auto" IsReadOnly="True"
+                                 BorderBrush="LightGray" Background="#F9F9F9" Padding="5"/>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <TextBox x:Name="LogText" Grid.Row="2" IsReadOnly="True" 
+                 VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" 
+                 Background="#F0F0F0" FontFamily="Consolas"/>
+    </Grid>
+</Window>
