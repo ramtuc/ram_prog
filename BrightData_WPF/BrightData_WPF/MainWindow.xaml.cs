@@ -21,14 +21,12 @@ namespace BrightData_WPF
         public List<string> RepoNames { get; set; } = new List<string>();
 
         // ▼ Bright Data設定 (ISP Proxy)
-        // ⚠️ 警告: 以下の値は必ずご自身の認証情報に置き換えてください
-        // 本物のパスワードやAPIキーをGitHubに公開しないでください！
+        // 以下の値は必ずご自身の認証情報に置き換えてください
         private const string ProxyHost = "brd.superproxy.io:33335";
         private const string Username = "brd-customer-hl_YOUR_CUSTOMER_ID-zone-isp_proxy1";
         private const string Password = "YOUR_BRIGHTDATA_PASSWORD";
 
         // ▼ Gemini APIキー (ご自身のキーを入力してください)
-        // ⚠️ 警告: 本物のAPIキーをGitHubに公開しないでください！
         private const string GeminiApiKey = "YOUR_GEMINI_API_KEY";
 
         public MainWindow()
@@ -244,7 +242,7 @@ namespace BrightData_WPF
 
        private async Task AnalyzeWithGemini()
         {
-            // 1. プロンプト作成 (大幅強化)
+            // 1. プロンプト作成
             var sb = new StringBuilder();
             sb.AppendLine("あなたはベテランの技術ジャーナリスト兼CTOです。");
             sb.AppendLine("以下の「GitHub Trending (本日の急上昇リポジトリ)」のリストを分析し、開発者向けの専門的なトレンドレポートを作成してください。");
