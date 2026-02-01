@@ -122,6 +122,19 @@ idf.py -p COM3 flash monitor  # COM3はお使いのポートに合わせて変�
 - 送信間隔を変更する場合は、`main.c`の`vTaskDelay()`の値を調整してください
 - サーバーのポート番号を変更する場合は、`main.py`と`main.c`の両方で変更してください
 
+## 参考資料
+
+### 解説記事
+
+- [ESP32-S3でESP-IDFを使ったHTTP JSON POST通信 - センサーデータ送信の実装](https://electwork.net/posts/esp32-s3-esp-idf-http-json-post/)
+
+### 技術資料
+
+- [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/)
+- [ESP HTTP Client](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/protocols/esp_http_client.html)
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [cJSON Library](https://github.com/DaveGamble/cJSON)
+
 ## ライセンス
 
 MITライセンス
