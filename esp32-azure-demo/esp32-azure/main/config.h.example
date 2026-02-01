@@ -1,0 +1,12 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi設定
+#define WIFI_SSID      "your-wifi-ssid"
+#define WIFI_PASS      "your-wifi-password"
+
+// Azure Function URL（?code=...まで含める）
+// Azure ポータルの Function App > 関数 > esp_data > 「関数の URL の取得」から取得
+#define AZURE_URL      "https://your-function-app.azurewebsites.net/api/esp_data?code=YOUR_FUNCTION_KEY"
+
+#endif // CONFIG_H

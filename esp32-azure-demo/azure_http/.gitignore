@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Azure Functions
+local.settings.json
+.python_packages/
+.funcignore
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+.python_version

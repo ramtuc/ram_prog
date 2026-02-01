@@ -1,0 +1,27 @@
+# ESP32 Azure Demo - .gitignore
+
+# ESP-IDFビルドファイル
+esp32-azure/build/
+esp32-azure/sdkconfig
+esp32-azure/sdkconfig.old
+
+# 機密情報を含む設定ファイル
+esp32-azure/main/config.h
+
+# Python仮想環境
+azure_http/.venv/
+azure_http/__pycache__/
+azure_http/.python_packages/
+
+# Azure Functionsローカル設定
+azure_http/local.settings.json
+
+# IDE設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
