@@ -80,6 +80,12 @@ Azure Functions側でログを確認できます。
 - WiFiパスワードやAPIキーなどの機密情報は絶対にGitHubにプッシュしないでください
 - 実運用環境では、Azure Functionsの認証レベルを適切に設定してください
 
+## 詳細な解説記事
+
+このプロジェクトの詳細な実装手順と解説は、以下の記事で公開しています：
+
+**[ESP32からAzure FunctionsへHTTPS POSTでデータを送信する方法](https://electwork.net/posts/esp32-azure-functions-https-post/)**
+
 ## ライセンス
 
 MIT License
