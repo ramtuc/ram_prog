@@ -85,7 +85,12 @@ GitHubで新しいリポジトリを作成（例: `esp32-grpc-lab`）
 git remote add origin https://github.com/YOUR_USERNAME/esp32-grpc-lab.git
 git branch -M main
 git push -u origin main
+
+# サブモジュールもプッシュ
+git push --recurse-submodules=on-demand
 ```
+
+**注意**: `.gitmodules` ファイルが自動的に作成されており、これによりサブモジュールの情報が管理されます。
 
 ## ⚠️ 注意事項
 

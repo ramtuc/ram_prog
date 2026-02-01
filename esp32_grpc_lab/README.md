@@ -78,12 +78,25 @@ cp config.h.example config.h
 
 ### 3. Nanopbコンポーネントの準備
 
-Nanopbライブラリが `components/nanopb/` に配置されていることを確認してください。
+このプロジェクトはNanopbライブラリをGitサブモジュールとして使用しています。
 
-もし未配置の場合:
+#### リポジトリをクローンした場合
+
 ```bash
-cd components
-git clone https://github.com/nanopb/nanopb.git
+# サブモジュールを初期化して取得
+git submodule update --init --recursive
+```
+
+#### 既にクローン済みの場合
+
+サブモジュールが既に取得されているか確認：
+```bash
+ls components/nanopb
+```
+
+空の場合は以下を実行：
+```bash
+git submodule update --init --recursive
 ```
 
 ### 4. ビルドとフラッシュ
@@ -211,6 +224,19 @@ int32_t humidity = read_humidity_sensor();
 - `config.h` は `.gitignore` に含まれています
 - `config.h.example` のみをGitで管理します
 - 本番環境ではHTTPSを使用してください
+
+## Gitサブモジュールについて
+
+このプロジェクトは以下の外部ライブラリをGitサブモジュールとして使用しています：
+
+- **nanopb**: Protocol Buffersのコンパクトな実装
+  - リポジトリ: https://github.com/nanopb/nanopb
+  - パス: `components/nanopb/`
+
+サブモジュールを含めてクローンする場合：
+```bash
+git clone --recurse-submodules https://github.com/YOUR_USERNAME/esp32-grpc-lab.git
+```
 
 ## 参考リンク
 
