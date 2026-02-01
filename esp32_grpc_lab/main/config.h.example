@@ -1,0 +1,13 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi設定
+#define WIFI_SSID      "your-wifi-ssid"
+#define WIFI_PASS      "your-wifi-password"
+
+// サーバーURL
+// ローカルPCで server.py を実行している場合: http://192.168.x.x:5000/data
+// クラウドサーバーの場合: https://your-server.com/data
+#define SERVER_URL     "http://192.168.0.100:5000/data"
+
+#endif // CONFIG_H
