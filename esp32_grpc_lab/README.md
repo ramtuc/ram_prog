@@ -250,4 +250,4 @@ MIT License
 
 ## 作者
 
-[あなたの名前]
+[RamTuckey]
