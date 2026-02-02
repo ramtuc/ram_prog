@@ -1,0 +1,24 @@
+/* 
+ * 設定ファイルのテンプレート
+ * 
+ * このファイルをコピーして config.h を作成し、
+ * 実際の値を設定してください。
+ * 
+ * コマンド例:
+ *   cp config.h.example config.h
+ * 
+ * config.h はGitにコミットされません。
+ */
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi設定
+#define WIFI_SSID      "your-wifi-ssid"
+#define WIFI_PASS      "your-wifi-password"
+
+// Azure Functions設定
+#define AZURE_DOMAIN   "https://your-function-app.azurewebsites.net/api"
+#define FUNCTION_KEY   "your-azure-function-key-here"
+
+#endif // CONFIG_H

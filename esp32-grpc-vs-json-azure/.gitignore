@@ -1,0 +1,39 @@
+# 機密情報を含む設定ファイル
+esp32_grpc_azure/main/config.h
+azure-grpc-receiver/local.settings.json
+
+# ビルド生成物
+**/build/
+**/*.o
+**/*.a
+**/*.bin
+**/*.elf
+**/*.map
+
+# ESP-IDF 関連
+**/sdkconfig
+**/sdkconfig.old
+**/managed_components/
+
+# Python関連
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.egg-info/
+**/.venv/
+**/.python_packages/
+
+# エディタ/IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS関連
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# その他
+*.log
